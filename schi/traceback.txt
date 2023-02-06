@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 85, in script
+    P "*зітхає*"
+Exception: Sayer 'P' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 85, in script
+    P "*зітхає*"
+  File "D:\Programs\renpy-8.0.0-sdk\renpy\ast.py", line 861, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "D:\Programs\renpy-8.0.0-sdk\renpy\ast.py", line 754, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'P' is not defined.
+
+Windows-10-10.0.19044 AMD64
+Ren'Py 8.0.0.22062402
+schi 1.0
+Mon Feb  6 03:20:02 2023
