@@ -29,7 +29,7 @@ label start:
     
     o "Засмальцьовані робітники заводів прилаштовують свої руки до жіночих сідниць."
     
-    scene bar_outside with dissolve
+    scene bar_outside1 with dissolve
     
     o "Cтуденти скидаються на дешевий алкоголь."
     
