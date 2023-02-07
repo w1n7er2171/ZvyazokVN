@@ -69,7 +69,7 @@ label start:
 
 label bar:
 
-    scene bar_inside
+    scene bar_inside with dissolve
 
     b "Ооо, давно тебе не бачив, любий."
 
