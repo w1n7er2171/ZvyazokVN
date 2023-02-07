@@ -20,20 +20,47 @@ define o = Character("")
 
 label start:
 
-    scene bar_outside1
+    scene city2 with dissolve
 
     o "В п'ятницю ввечері, коли бари відкривають ширше свої двері,"
     o "а повітря наповнюється алкоголем і сексом, на вулицю вивалюється різний збрід."
+    
+    scene poch2 with dissolve
+    
     o "Засмальцьовані робітники заводів прилаштовують свої руки до жіночих сідниць."
+    
+    scene bar_outside with dissolve
+    
     o "Cтуденти скидаються на дешевий алкоголь."
-    o "Бухгалтера"
-    o "повії"
-    o "менеджери середньої ланки"
-    o "драг-дилери"
-    o "дизайнери"
-    o "а, можливо, і самі боги"
-    o "збираються промочити горло в п'ятницю в барі."
+    
+    scene bar_0 with dissolve
+    show bar_1 with dissolve
 
+    o "Бухгалтера"
+
+    show bar_2 with dissolve
+
+    o "Повії"
+
+    show bar_3 with dissolve
+
+    o "Менеджери середньої ланки"
+
+    show bar_4 with dissolve
+
+    o "Драг-дилери"
+
+    show bar_5 with dissolve
+
+    o "Дизайнери"
+
+    show bar_6 with dissolve
+
+    o "А, можливо, і самі боги,"
+
+    scene bar_7 with dissolve
+
+    o "збираються промочити горло в п'ятницю в барі."
 
     jump bar
 
@@ -180,7 +207,7 @@ label bar:
 
     t "Старий, повтори нам, будь ласка, коктейлі…"
 
-    
+
     
 
 label abort:
