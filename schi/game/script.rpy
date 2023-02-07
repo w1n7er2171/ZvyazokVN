@@ -11,6 +11,7 @@ define m = Character("Мама")
 define f = Character("Подруга")
 define l = Character("Лікар")
 define b = Character("Бармен")
+define o = Character("")
 
 
 
@@ -21,9 +22,18 @@ label start:
 
     scene bar_outside1
 
-    v "You've created a new Ren'Py game."
+    o "В п'ятницю ввечері, коли бари відкривають ширше свої двері,"
+    o "а повітря наповнюється алкоголем і сексом, на вулицю вивалюється різний збрід."
+    o "Засмальцьовані робітники заводів прилаштовують свої руки до жіночих сідниць."
+    o "Cтуденти скидаються на дешевий алкоголь."
+    o "Бухгалтера"
+    o "повії"
+    o "менеджери середньої ланки"
+    o "драг-дилери"
+    o "дизайнери"
+    o "а, можливо, і самі боги"
+    o "збираються промочити горло в п'ятницю в барі."
 
-    v "Once you add a story, pictures, and music, you can release it to the world!"
 
     jump bar
 
