@@ -1,22 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 85, in script
-    P "*зітхає*"
-Exception: Sayer 'P' is not defined.
+  File "game/script.rpy", line 455, in script
+    l "Тест це не 100% гарантії."
+ValueError: unsupported format character '?' (0x433) at index 16
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 85, in script
-    P "*зітхає*"
-  File "D:\Programs\renpy-8.0.0-sdk\renpy\ast.py", line 861, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "D:\Programs\renpy-8.0.0-sdk\renpy\ast.py", line 754, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'P' is not defined.
+  File "game/script.rpy", line 455, in script
+    l "Тест це не 100% гарантії."
+  File "D:\Programs\renpy-8.0.0-sdk\renpy\ast.py", line 901, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\Programs\renpy-8.0.0-sdk\renpy\exports.py", line 1362, in say
+    what = what % tag_quoting_dict
+ValueError: unsupported format character '?' (0x433) at index 16
 
 Windows-10-10.0.19044 AMD64
 Ren'Py 8.0.0.22062402
 schi 1.0
-Mon Feb  6 03:20:02 2023
+Tue Feb  7 02:46:49 2023
