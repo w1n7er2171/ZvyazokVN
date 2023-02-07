@@ -10,6 +10,7 @@ define d = Character("Дівчина")
 define m = Character("Мама")
 define f = Character("Подруга")
 define l = Character("Лікар")
+define b = Character("Бармен")
 
 
 
@@ -43,7 +44,14 @@ label start:
 
 
 
+label bar:
+    b "Ооо, давно тебе не бачив, любий."
+    menu:
+        "":
 
+        "":
+            
+    
 
 label abort:
     scene bed_day
@@ -479,3 +487,9 @@ label abort:
     scene black with dissolve
     show text "Не вагітна." with Pause(3)
     scene black with dissolve
+
+    scene background
+    
+
+
+
