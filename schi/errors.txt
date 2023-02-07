@@ -2,7 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 149: Indentation mismatch.
+File "game/script.rpy", line 98: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
+    "Ти ж знаєш, я не знайомлюсь в барах."
+                                          ^
 
-Ren'Py Version: Ren'Py 8.0.0.22062402
-Mon Feb  6 23:33:47 2023
+File "game/script.rpy", line 117: end of line expected.
+    v "Хаха, сказати "тебе" буде надто зухвало?"
+                      ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Tue Feb  7 19:17:13 2023
