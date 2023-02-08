@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 98: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "Ти ж знаєш, я не знайомлюсь в барах."
-                                          ^
+File "game/script.rpy", line 629: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    menu:
+    ^
 
-File "game/script.rpy", line 117: end of line expected.
-    v "Хаха, сказати "тебе" буде надто зухвало?"
-                      ^
-
-Ren'Py Version: Ren'Py 8.0.3.22090809
-Tue Feb  7 19:17:13 2023
+Ren'Py Version: Ren'Py 8.0.0.22062402
+Wed Feb  8 18:49:52 2023
