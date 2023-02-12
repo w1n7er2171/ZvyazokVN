@@ -131,12 +131,12 @@ style namebox_label is say_label
 
 
 style window:
-    xalign 0.5
+    xalign gui.textbox_xalign
     xfill True
-    yalign gui.textbox_yalign
+    yalign window_yalign
     ysize gui.textbox_height
 
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+    background Image("gui/text_bar_0.png", xalign = window_xalign)
 
 style namebox:
     xpos gui.name_xpos
